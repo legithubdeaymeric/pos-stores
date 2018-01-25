@@ -10,7 +10,7 @@ info:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 host: "virtserver.swaggerhub.com"
-basePath: "/test5679/sqdqsd/1.0.0"
+basePath: "/test5679/pos-stores/1.0.0"
 tags:
 - name: "admins"
   description: "Secured Admin-only calls"
@@ -82,7 +82,7 @@ paths:
         400:
           description: "invalid input, object invalid"
         409:
-          description: "an existing item already exists"
+          description: "an existing item already exists8"
 definitions:
   InventoryItem:
     type: "object"
@@ -131,3 +131,4 @@ definitions:
       phone: "408-867-5309"
       name: "ACME Corporation"
       homePage: "https://www.acme-corp.com"
+x-aws-api-id: "8ivq1dpq9d"
